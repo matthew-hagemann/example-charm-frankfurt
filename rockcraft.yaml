@@ -1,0 +1,9 @@
+name: example-flask-app
+base: ubuntu@22.04
+version: "0.1"
+summary: A simple hello world Flask server
+description: A simple hello world Flask server
+platforms:
+  amd64:
+extensions:
+  - flask-framework
